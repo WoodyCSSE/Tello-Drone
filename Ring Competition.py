@@ -16,7 +16,7 @@ tello_address = ('192.168.10.1', 8889) # Get the Tello drone's address
 # Creates a UDP socketd
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-sock.bind(locaddr)
+#sock.bind(locaddr)
 
 
 def recv():
@@ -44,8 +44,10 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 def firstHoop():
+    sendmsg("up 75")
+    sendmsg("forward 80")
 
-    
+
 """"
 #def secondHoop():
 
