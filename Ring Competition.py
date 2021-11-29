@@ -43,10 +43,20 @@ recvThread.start()
 
 # CREATE FUNCTIONS HERE....
 
+def firstHoop():
 
-print("\nFirst & Last Names")
-print("Program Name: ")
-print("Date: ")
+    
+""""
+#def secondHoop():
+
+#def thridHoop():
+
+#def fourthHoop():
+"""
+
+print("\nTeam: Tilbury and Loukes")
+print("Program Name: Hoop Competition")
+print("Date: 11.29.2021")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
