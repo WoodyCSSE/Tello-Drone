@@ -44,11 +44,11 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 #D8DDCF
 def firstHoop():
-    sendmsg("up 79")
-    sendmsg("forward 200")
+    sendmsg("up 69")
+    sendmsg("forward 190")
 
 def secondHoop():
-    sendmsg("go 100, 20, 0, 50")
+    sendmsg("go 130, 40, 40, 50")
 
 """"
 #def thirdHoop():
@@ -70,6 +70,7 @@ try:
 
         sendmsg('command', 0)
         sendmsg('takeoff')
+
 
         firstHoop()
         secondHoop()
